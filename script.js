@@ -7,7 +7,7 @@ btn.addEventListener('click', () => {
 
     if (height == '' || weight == ''){
         alert("please Fill out The Input");
-        return;
+        
     }
     height = height/100; //  height meter ea convert kora hoice
 
@@ -26,6 +26,9 @@ btn.addEventListener('click', () => {
     }
      if (BMI >=25 && BMI <30){
         status = "overweight";
+    }
+     if (BMI >=25 && BMI >30){
+        status = "votka hala";
     }
     if (BMI <10){
         status = "ch*d ling pong";

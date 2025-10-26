@@ -10,6 +10,8 @@ body {
     height: 100vh;
     background-size: cover;
     font-family: "Roboto", sans-serif;
+    background: url(row-exercise-equipment-gym_1114948-9928.jpg);
+    backdrop-filter: blur(10px);
 }
 
 .conteiner {
@@ -78,6 +80,8 @@ h1 {
     border-bottom: 1px solid lightblue;
     width: 60%;
     text-align: center;
+    font-size: 25px;
+    font-weight: 700;
 
 
 }
